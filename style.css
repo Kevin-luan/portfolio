@@ -8,6 +8,8 @@
 
 .flex{
     display: flex;
+     /* gap: 60px; */
+
 }
     body{
        
@@ -20,6 +22,12 @@
        margin: 0 auto;
        max-width: 1280px;
     }
+ h2.titulos{
+  color: #ffffff; 
+  font-size: 38px;
+    text-align: center;
+
+}
 
 /* Estolo cabecalio */
 
@@ -29,7 +37,7 @@ header{
     
     padding: 40px 4%;
 }
-header > .interface{
+header  .interface{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,5 +127,64 @@ section.topo-site .flex{
     0%{ transform: translateY(0px);}
     50%{ transform: translateY(-20px);}
     100%{ transform: translateY(0px);}
+}
+
+
+/*  Especialidades  */
+
+section .especialidades{
+
+    padding: 40px 4%;    
+    
+}
+.especialidades .flex{
+   
+   gap: 100px;
+}
+
+
+
+
+.especialidades .especialidades-box{
+    color: #ffffff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 25px;
+    transition: 1.0s ;        
+    
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    border: 2px solid rgba(0, 191, 255, 0.522);
+   
+        
+}
+.especialidades .especialidades-box h3{
+ font-size: 28px;
+ margin: 15px 0;
+        
+}
+.especialidades .especialidades-box p{
+ font-size: 28px;
+ margin: 15px 0;
+        
+}
+.especialidades #java i{
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: rgb(255, 157, 0);
+}
+
+
+.especialidades #cshap i{
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: rgb(166, 0, 255);
+}
+.especialidades #c i{
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: rgb(166, 0, 255);
 }
 

@@ -33,6 +33,26 @@ text-align:center;
     font-family: graffiti;
     font-size: large;
 }
+.navegacao a:hover{
+    color: #f5f5dc;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+.redesSociais a{
+    margin: 0 10px;
+    background-color: #333;
+    color: #f5f5dc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    
+}
+.redesSociais a:hover{
+       box-shadow: 0 2px 5px rgb(255, 255, 255);
+  
+}
 .sobre{
     display: flex;
     align-items: center;
@@ -55,6 +75,7 @@ h1{
 
    font-family: graffiti;
     text-align: center;
+     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.452);;
 }
 h2{
     color: #f5f5dc;

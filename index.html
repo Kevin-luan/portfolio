@@ -4,51 +4,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kevin Luan Cardoso</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Header -->
+
     <header>
-        <!--Div do header-->
         <div class="header-container">
-            <!--Div de título-->
-            <div>
-                <h1>Kevin luan</h1>
-            </div>
-            <!--Div da navegação-->
-            <div class="navegacao">
-                <a href="#">Work</a>
-                <a href="#">Info</a>
-            </div>
-            <!--Div das redes sociais-->
-            <div class="redesSociais navegacao" >
-                <a href="https://www.linkedin.com/in/kevin-luan-8a4b81242/">Linkedin</a>
-                <a href="https://github.com/Kevin-luan">GitHub</a>
+            <h1>Kevin Luan Cardoso</h1>
+
+            <nav class="navegacao">
+                <a href="#sobre">Sobre</a>
+                <a href="#experiencia">Experiência</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#cursos">Cursos</a>
+                <a href="#skills">Skills</a>
+            </nav>
+
+            <div class="redesSociais">
+                <a href="https://www.linkedin.com/in/kevin-luan-8a4b81242/" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/Kevin-luan" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
         </div>
-
     </header>
-    <!--Div da seção sobre-->
-    <div class="sobre">
-        <div class="info">
-            <h2>Sobre mim</h2>
-            <p>Sou um profissional de Tecnologia da Informação com foco em desenvolvimento backend e experiência em
-                suporte técnico e infraestrutura de sistemas. Tenho conhecimentos em programação com C#, desenvolvimento
-                de aplicações desktop com Windows Forms e integração com bancos de dados relacionais utilizando
-                Microsoft SQL Server.</p>
-            <p>Ao longo da minha trajetória, desenvolvi habilidades em programação orientada a objetos, modelagem de
-                banco de dados e construção de soluções que integram lógica de aplicação com armazenamento de dados.
-                Também possuo experiência com Java, HTML, CSS e ambientes Linux, ampliando minha capacidade de atuar em
-                diferentes camadas do desenvolvimento de software. </p>
-            <p>Minha experiência profissional em suporte e manutenção de sistemas me proporcionou uma visão prática
-                sobre funcionamento de infraestrutura, diagnóstico de problemas e melhoria de processos tecnológicos
-                dentro de ambientes corporativos.</p>
 
-        </div>
-        <img src="Imagens/fotoKevin.jpg" alt="Foto de Kevin Luan">
-    </div>
+    <main>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="sobre">
+            <img src="Imagens/fotoKevin.jpg" alt="Foto de Kevin Luan Cardoso, profissional de TI">
+
+            <div>
+                <h2>Sobre mim</h2>
+                <p>Profissional de Tecnologia da Informação em formação em Ciência da Computação e graduado em Análise e
+                    Desenvolvimento de Sistemas pela UNIP, concluído em 2025.</p>
+
+                <p>Atuo com suporte técnico e infraestrutura de TI, com experiência em manutenção de computadores,
+                    servidores, redes e administração de sistemas em ambientes corporativos.</p>
+
+                <p>Possuo conhecimentos em desenvolvimento de software com C#, Java e C, incluindo aplicações desktop
+                    com Windows Forms e desenvolvimento de jogos 2D com Unity, além de banco de dados relacionais com
+                    Microsoft SQL Server.</p>
+                <p>Tenho interesse em educação, inclusão digital, direitos digitais e soberania de dados.</p>
+            </div>
+        </section>
+
+        <!-- EXPERIÊNCIA -->
+        <section id="experiencia">
+            <h2>Experiência Profissional</h2>
+
+            <div class="experiencia">
+
+                <div class="job">
+                    <h3>Auxiliar de TI</h3>
+                    <span>Ação Educativa – 2025 - Atual</span>
+                    <p>Suporte técnico, manutenção de computadores, servidores e redes, instalação de sistemas e
+                        segurança da informação.</p>
+                </div>
+
+                <div class="job">
+                    <h3>Estagiário de TI</h3>
+                    <span>Ação Educativa – 2023 - 2025</span>
+                    <p>Manutenção de equipamentos, suporte a usuários, redes e infraestrutura.</p>
+                </div>
+
+                <div class="job">
+                    <h3>Educador de Eletrônica</h3>
+                    <span>ONG Casa dos Meninos – 2022</span>
+                    <p>Ensino de eletrônica e redes, criação de materiais didáticos e acompanhamento de alunos.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos">
+            <h2>Projetos em C# (.NET)</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Sistema de Inventário</h3>
+                    <p>Sistema de controle de inventário em C# com foco em gerenciamento de produtos e estoque.</p>
+                    <a href="https://github.com/Kevin-luan/Inventario-" target="_blank">Ver no GitHub</a>
+                </div>
+
+                <div class="card">
+                    <h3>Curso Livre C#</h3>
+                    <p>Repositório com exercícios de C#, POO e lógica de programação em .NET.</p>
+                    <a href="https://github.com/Kevin-luan/CursoLivreCSharp" target="_blank">Ver no GitHub</a>
+                </div>
+
+                <div class="card">
+                    <h3>Sistema ONG Casa dos Meninos</h3>
+                    <p>Sistema para apoio educacional e organização de dados em projeto social.</p>
+                    <a href="https://github.com/Kevin-luan/CasaDosMeninos" target="_blank">Ver no GitHub</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CURSOS -->
+        <section id="cursos">
+            <h2>Cursos</h2>
+
+            <ul>
+                <li><strong>Ciência da Computação – SENAC (em andamento)</strong><br>
+                    Formação em programação, algoritmos, estrutura de dados, engenharia de software e bases de sistemas
+                    computacionais</li>
+
+                <li><strong>Análise e Desenvolvimento de Sistemas – UNIP (concluído em 2025)</strong><br>
+                    Desenvolvimento de sistemas, programação, banco de dados, engenharia de software e suporte à criação
+                    de aplicações</li>
+                <li><strong>C# com Windows Forms – SENAC (2025)</strong><br> Desenvolvimento desktop, GUI, POO e banco
+                    de dados</li>
+                <li><strong>Games 2D com Unity – SENAC (2025)</strong><br> Programação em C#, lógica e física aplicada
+                </li>
+                <li><strong>Banco de Dados SQL Server – SENAI (2024)</strong><br> Modelagem, backup, segurança e
+                    procedures</li>
+            </ul>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2>Competências Técnicas</h2>
+
+            <ul class="skills">
+                <li>C#</li>
+                <li>Java</li>
+                <li>SQL Server</li>
+                <li>HTML & CSS</li>
+                <li>Linux</li>
+                <li>C</li>
+                <li>Eletrônica</li>
+                <li>Redes</li>
+                <li>Suporte Técnico</li>
+                <li>Servidores</li>
+            </ul>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="contato">
+            <h2>Contato</h2>
+
+            <p>Email: cardosoluan3006@gmail.com</p>
+            <p>Telefone: (11) 95091-6121</p>
+            <p>Itapecerica da Serra – SP</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Kevin Luan Cardoso</p>
+    </footer>
 
 </body>
 
